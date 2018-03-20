@@ -1,9 +1,4 @@
-# Amp Snippets
-
-## Sources:
-* https://github.com/ampproject/amphtml/blob/master/spec/amp-html-layout.md
-
-### Images
+# Amp Image Examples
 
 A simple responsive image, where width and height are used to determine the aspect ratio:
 ```html
@@ -62,24 +57,3 @@ Using `fallback`
 ```
 
 ----------
-### Keyframes
-
-#### Stylesheet
-```html
-<style amp-keyframes>
-@keyframes anim1 {}
-
-@media (min-width: 600px) {
-  @keyframes anim1 {}
-}
-</style>
-</body>
-```
----
-### Custom Fonts
-* Must serve over https
-
-```html
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-```
----
